@@ -9,7 +9,7 @@
 @import url(css/chien.css);
 @import url(css/slicknav.css);
 @import url(css/thuy.css);
-@import url(css/header-footer.css);
+@import url(css/header-foter.css);
 
 
 
@@ -28,8 +28,30 @@
 .mt-30{
 	margin-top: 30px;
 }
+/* line 284, ../../Arafath/CL/December/231. Travel-02/HTML/scss/theme-default.scss */
+.mb-20px {
+  margin-bottom: 20px;
+}
 
+/* line 288, ../../Arafath/CL/December/231. Travel-02/HTML/scss/theme-default.scss */
+.mb-55 {
+  margin-bottom: 55px;
+}
 
+/* line 291, ../../Arafath/CL/December/231. Travel-02/HTML/scss/theme-default.scss */
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+/* line 294, ../../Arafath/CL/December/231. Travel-02/HTML/scss/theme-default.scss */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* line 299, ../../Arafath/CL/December/231. Travel-02/HTML/scss/theme-default.scss */
+.mb-60 {
+  margin-bottom: 50px !important;
+}
 
 
 

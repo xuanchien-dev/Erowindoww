@@ -1,4 +1,6 @@
 
+
+/*//////////////////////////css-header//////////////////////*/
 .header-area {
   left: 0;
   right: 0;
@@ -17,7 +19,13 @@
     top: 0px !important;
     margin-bottom: 30px;
   }
-
+  .mobile_menu {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    z-index: 9;
+  }
+  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -378,7 +386,6 @@
   }
 }
 
-/* line 343, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
 .header-area .seach_icon a {
   text-align: center;
   color: #fff;
@@ -515,7 +522,6 @@
   overflow: visible;
   
 }
-/* line 349, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
 .header-area .seach_icon a i {
   position: absolute;
   left: 50%;
@@ -523,4 +529,302 @@
   color: black;
   font-size: 20px;
   transform: translate(-50%, -50%);
+}
+
+/*//////////////////////////////css-footer///////////////////*/
+@media (max-width: 767px) {
+  /* line 16, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 16, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 23, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .links {
+  position: relative;
+  top: -14px;
+}
+
+/* line 27, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .links.double_links li {
+  width: 50%;
+  float: left;
+}
+
+/* line 33, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .footer_title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+  font-family: "HelveticaNeue", sans-serif;
+}
+
+@media (max-width: 767px) {
+  /* line 33, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .footer_title {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 44, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .footer_logo {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  /* line 44, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .footer_logo {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 54, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+p.f-title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+p.f-map{
+  font-size: 14px;
+  font-weight: inherit;
+  color: #ffffffc7;
+  display: flex;
+}
+.bt-10{
+  margin-bottom: 10px;
+}
+a.f-phone,a.f-website{
+  color:#ffffffc7;
+  font-size: 14px;
+  line-height: 10px;
+  display: block;
+}
+/* line 61, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p a {
+  color: #AAB1B7;
+}
+
+/* line 63, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p a:hover {
+  color: #FF4A52;
+}
+
+/* line 69, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text {
+  font-size: 16px;
+  color: #B2B2B2;
+  margin-bottom: 23px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* line 75, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text a.domain {
+  color: #B2B2B2;
+  font-weight: 400;
+}
+
+/* line 78, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text a.domain:hover {
+  color: #FF4A52;
+  border-bottom: 1px solid #FF4A52;
+}
+
+/* line 84, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a {
+  font-weight: 500;
+  color: #B2B2B2;
+}
+
+/* line 88, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a:hover {
+  color: #FF4A52;
+  border-bottom: 1px solid #FF4A52;
+}
+
+/* line 92, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a.first {
+  margin-bottom: 10px;
+}
+
+/* line 100, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li {
+  color: #ACACAC;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+/* line 104, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li a {
+  color: #fff;
+  font-weight: 400;
+  font-family: "HelveticaNeue", sans-serif;
+}
+
+/* line 108, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li a:hover {
+  color: #FF4A52;
+}
+
+/* line 114, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 117, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input {
+  width: 100%;
+  height: 50px;
+  background: #F5FBFF;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #000;
+  border: none;
+  border: 1px solid #E8E8E8;
+  border-radius: 30px;
+  font-family: "HelveticaNeue", sans-serif;
+  padding-right: 120px;
+}
+
+/* line 129, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input::placeholder {
+  font-size: 15px;
+  color: #AAB1B7;
+}
+
+/* line 133, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input:focus {
+  outline: none;
+}
+
+/* line 137, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  background: #FF4A52;
+  padding: 10px;
+  padding: 0 22px;
+  cursor: pointer;
+  border-radius: 30px;
+  top: 5px;
+  right: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "HelveticaNeue", sans-serif;
+}
+
+/* line 157, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_text {
+  font-size: 14px;
+  color: #AAB1B7;
+  line-height: 26px;
+  font-family: "HelveticaNeue", sans-serif;
+}
+
+/* line 163, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .instagram_feed {
+  margin: -7.5px -7.5px 0 -7.5px;
+}
+
+/* line 165, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .instagram_feed .single_insta {
+  width: 33.33%;
+  padding: 7.5px;
+}
+
+/* line 171, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .instagram_feed .single_insta img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 179, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .copy-right_text {
+  padding-bottom: 15px;
+}
+
+/* line 181, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .copy-right_text .footer_border {
+  padding-bottom: 15px;
+}
+.copy-right_text{
+  border-top: 1px solid #fff;
+}
+
+/* line 185, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  /* line 185, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+  .footer .copy-right_text .copy_right {
+    font-size: 14px;
+  }
+}
+
+/* line 193, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right a {
+  color: #FF4A52;
+}
+
+/* line 198, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .socail_links {
+  margin-top: 45px;
+}
+@media (max-width: 767px) {
+  /* line 198, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+  .footer .socail_links {
+    margin-top: 30px;
+  }
+}
+
+/* line 204, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .socail_links ul li {
+  display: inline-block;
+}
+
+/* line 207, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .socail_links ul li a {
+  font-size: 15px;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+  background: transparent;
+  margin-right: 7px;
+  line-height: 35px !important;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+/* line 222, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
+.footer .socail_links ul li a:hover {
+  color: #FF4A52 !important;
+  border-color: red;
 }

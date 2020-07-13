@@ -27,10 +27,6 @@ if(menu.length){
 		openedSymbol:'-'
 	});
 };
-// blog-menu
-  // $('ul#blog-menu').slicknav({
-  //   prependTo: ".blog_menu"
-  // });
 
 // review-active
 $('.slider_active').owlCarousel({
@@ -65,49 +61,8 @@ $('.slider_active').owlCarousel({
   }
 });
 
-// review-active
-$('.testmonial_active').owlCarousel({
-  loop:true,
-  margin:0,
-  items:1,
-  autoplay:true,
-  navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
-  nav:false,
-  dots:true,
-  autoplayHoverPause: true,
-  autoplaySpeed: 800,
-  responsive:{
-      0:{
-          items:1,
-      },
-      767:{
-          items:1,
-      },
-      992:{
-          items:1,
-      },
-      1200:{
-          items:1,
-      },
-      1500:{
-          items:1
-      }
-  }
-});
 
-$( function() {
-  $( "#slider-range" ).slider({
-      range: true,
-      min: 0,
-      max: 600,
-      values: [ 75, 300 ],
-      slide: function( event, ui ) {
-          $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-      }
-  });
-  $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-} );
+
 
 
 // for filter
@@ -137,27 +92,6 @@ $( function() {
   // wow js
   new WOW().init();
 
-  // counter 
-  $('.counter').counterUp({
-    delay: 10,
-    time: 10000
-  });
-
-/* magnificPopup img view */
-$('.popup-image').magnificPopup({
-	type: 'image',
-	gallery: {
-	  enabled: true
-	}
-});
-
-/* magnificPopup img view */
-$('.img-pop-up').magnificPopup({
-	type: 'image',
-	gallery: {
-	  enabled: true
-	}
-});
 
 /* magnificPopup video view */
 $('.popup-video').magnificPopup({
@@ -189,72 +123,8 @@ $('.popup-video').magnificPopup({
   });
 
 
-  // blog-page
 
-  //brand-active
-$('.brand-active').owlCarousel({
-  loop:true,
-  margin:30,
-items:1,
-autoplay:true,
-  nav:false,
-dots:false,
-autoplayHoverPause: true,
-autoplaySpeed: 800,
-  responsive:{
-      0:{
-          items:1,
-          nav:false
 
-      },
-      767:{
-          items:4
-      },
-      992:{
-          items:7
-      }
-  }
-});
-
-// blog-dtails-page
-
-  //project-active
-$('.project-active').owlCarousel({
-  loop:true,
-  margin:30,
-items:1,
-// autoplay:true,
-navText:['<i class="Flaticon flaticon-left-arrow"></i>','<i class="Flaticon flaticon-right-arrow"></i>'],
-nav:true,
-dots:false,
-// autoplayHoverPause: true,
-// autoplaySpeed: 800,
-  responsive:{
-      0:{
-          items:1,
-          nav:false
-
-      },
-      767:{
-          items:1,
-          nav:false
-      },
-      992:{
-          items:2,
-          nav:false
-      },
-      1200:{
-          items:1,
-      },
-      1501:{
-          items:2,
-      }
-  }
-});
-
-if (document.getElementById('default-select')) {
-  $('select').niceSelect();
-}
 
   //about-pro-active
 $('.details_active').owlCarousel({
@@ -289,26 +159,6 @@ dots:false,
 
 });
 
-// resitration_Form
-$(document).ready(function() {
-	$('.popup-with-form').magnificPopup({
-		type: 'inline',
-		preloader: false,
-		focus: '#name',
-
-		// When elemened is focused, some mobile browsers in some cases zoom in
-		// It looks not nice, so we disable it:
-		callbacks: {
-			beforeOpen: function() {
-				if($(window).width() < 700) {
-					this.st.focus = false;
-				} else {
-					this.st.focus = '#name';
-				}
-			}
-		}
-	});
-});
 
 
 

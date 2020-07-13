@@ -586,23 +586,31 @@
     color: #FFFFFF;
     font-size: 14px;
     margin-right: 30px;
-    padding: .2rem 1rem;
+    padding: .2rem .8rem;
+}
+
+.product-detail .f-btn:last-child {
+    margin-right: 0;
 }
 
 .product-detail .btn-add-cart {
     justify-content: space-around;
+    font-size: 14px;
 }
 
-.product-detail .btn-add-cart span {
+.product-detail .btn-add-cart span:first-child {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 40px;
-    object-fit: cover;
-    object-position: 50% 50%;
     background-color: #FFFFFF;
     border-radius: 50%;
+}
+
+.product-detail .btn-add-cart span img {
+    object-fit: fill;
+    object-position: 50% 50%;
 }
 
 .product-detail .f-btn:hover,
@@ -703,12 +711,17 @@
     color: #141414;
     line-height: 1.5;
     margin: .4rem 0;
+    font-size: 14px;
+}
 
+.pd-section .cmt-list .media .cmt-reply {
+    margin-right: 1rem;
 }
 
 .pd-section .b-section #nav-detail p {
     color: #141414;
     letter-spacing: 0.81px;
+    font-size: 14px;
     line-height: 1.5;
     text-align: justify;
 }
@@ -872,6 +885,34 @@
         text-align: left !important;
         border: none !important;
     }
+
+    .img-preview #carousel-1 img {
+        height: 200px !important;
+    }
+
+    #carousel-2 {
+        display: none;
+    }
+
+    .pd-section .h-section h4 {
+        font-size: 16px;
+    }
+
+    .pd-section .h-section .nav-item .nav-link {
+        font-size: 16px;
+    }
+
+    .pd-section .h-section .nav-item:not(:first-child) .nav-link {
+        padding-left: .5rem;
+    }
+    
+    .pd-section .h-section .nav-item:not(:last-child) .nav-link {
+        padding-right: .5rem;
+    }
+
+    .pd-section .h-section .cmt-filter p{
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -963,6 +1004,14 @@
     .main-section .cat-pagination .page-act .p-act-prev {
         font-size: 12px;
     }
+
+    #carousel-2 {
+        display: none;
+    }
+
+    .product-detail .f-btn {
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -985,11 +1034,7 @@
     }
 
     .img-preview #carousel-1 img {
-        height: 300px !important;
-    }
-
-    .product-detail .f-btn {
-        margin-right: 20px;
+        height: 300px;
     }
 }
 

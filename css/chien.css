@@ -6,24 +6,12 @@
    font-family: 'Bold';
    src: url(../fonts/Montserrat-Bold.ttf);
 }
-@font-face {
-   font-family: 'HelveticaNeue';
-   src: url(../fonts/HelveticaNeue Medium.ttf);
-}
-@font-face {
-   font-family: 'HelveticaNeue';
-   src: url(../fonts/HelveticaNeue Medium.ttf);
-}
-@font-face {
-   font-family: 'HelveticaNeue';
-   src: url(../fonts/HelveticaNeue Medium.ttf);
-}
 
 body {
    font-size: 14px;
    color: #0D3996;
    font-family: "HelveticaNeue" sans-serif;
-   line-height: 1.5;
+   line-height: 1.5;ss
    font-weight: 400;
    overflow-x: hidden;
 }
@@ -292,7 +280,6 @@ p {
 .slider_area {
   position: relative;
   z-index: 0;
-  top: -62px;
 }
 
 .slider_area .single_slider {

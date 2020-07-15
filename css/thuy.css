@@ -1132,12 +1132,18 @@
         z-index: 2;
         background-color: #FFFFFF;
         padding: .5rem 1rem;
+        box-shadow: 0 1px 1px 1px #F5F5F5;
     }
 
     .open-crite .order-criteria {
         width: 100% !important;
         text-align: left !important;
         border: none !important;
+        margin-bottom: 5px;
+    }
+
+    .open-crite .order-criteria:last-child {
+        margin-bottom: 0;
     }
 
     .img-preview #carousel-1 img {

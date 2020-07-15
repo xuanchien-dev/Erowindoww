@@ -2,11 +2,7 @@
 .head-section {
     margin-bottom: 0;
 }
-.cat-section .box-category .img-category .bf-r:before{
- content:url('../images/img-sofa1-bf.png');
- position: absolute;
- right: 0px;
-}
+
 .head_banner {
     display: flex;
     justify-content: center;
@@ -86,21 +82,7 @@
     -webkit-line-clamp: 5;
     overflow: hidden;
 }
-.cat-section .box-category .img-category .bf-tivi:before{
-    content: url(../images/bf-tivi.png);
-    position: absolute;
-    right: 0px;
-}
-.cat-section .box-category .img-category .bf-l.bf-l-tu-giay:before{
-    content: url(../images/bf-tugiay.png);
-    position: absolute;
-    left: 0px;
-}
-.cat-section .box-category .img-category .bf-r.bf-tivi.bf-g-ngu:before{
-    content: url(../images/bf-g-ngu.png);
-    position: absolute;
-    right: 0px;
-}
+
 .cat-section .box-category .desc-category a.btn {
     color: #004FA1;
     border: 1px solid #004FA1;
@@ -129,16 +111,12 @@
     position: absolute;
 }
 .bf-r{
-    margin-left: -30px;
+    margin-left: -15px;
 }
 .bf-l img{
-    right: -15px
+    right: 0px
 }
-.cat-section .box-category .img-category .bf-l:before{
- content:url('../images/sf-2-bf.png');
- position: absolute;
- left: 0px;
-}
+
 .cat-section:nth-child(odd) .box-category .row {
     flex-direction: row-reverse;
 }

@@ -1711,4 +1711,27 @@ a.view-more:hover{
 .slider_text.td {
 
 }
-/*css-sofa*/
+/*css-chi tiet tin tuc*/
+h2.contact-title.title-tin-tuc{
+  font-size: 18px;
+  color: #292929;
+}
+.content-chi-tiet-tt p{
+  color: #292929;
+  font-size: 14px;
+  font-family: Regular;
+}
+.img-nxet{
+  position: relative;
+  display: block;
+   padding: 0px 75px;
+}
+.img-nxet p{
+  padding: 0px 75px;
+  font-size: 10px;
+  font-family: Regular;
+  color: #141414;
+  background-color: #F5F5F5;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}

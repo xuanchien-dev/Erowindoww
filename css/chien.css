@@ -19,7 +19,7 @@ body {
    font-size: 14px;
    color: #0D3996;
    font-family: "Montserrat" sans-serif;
-   line-height: 1.5;ss
+   line-height: 1.5;
    font-weight: 400;
    overflow-x: hidden;
 }
@@ -1518,7 +1518,7 @@ button.btn-google:hover{
   position: relative;
 }
 .title-content-da h3:after{
-   content:url('blackCarrot.png')
+  content:url('blackCarrot.png');
   background-image: url(../images/elip-bt.png);
   position: absolute;
   bottom: -15px;

@@ -19,7 +19,7 @@ body {
    font-size: 14px;
    color: #0D3996;
    font-family: "Montserrat" sans-serif;
-   line-height: 1.5;ss
+   line-height: 1.5;
    font-weight: 400;
    overflow-x: hidden;
 }
@@ -1526,7 +1526,12 @@ a.view-more:hover{
   margin-bottom: 30px;
 }
 .title-content-da h3:after{
+<<<<<<< HEAD
   content:url('../images/elip-bt.png');
+=======
+  content:url('blackCarrot.png');
+  background-image: url(../images/elip-bt.png);
+>>>>>>> 22cc1a6e75f4d49b924f1470d21faaf6ec13e94d
   position: absolute;
   left: 0px;
   z-index: 99;

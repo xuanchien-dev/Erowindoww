@@ -117,7 +117,7 @@
         </div>
     </header>
 
-    <div class="main-body">
+    <div class="main-body" style="background-color: #FFFFFF;">
         <div class="head-section slider_area">
             <div class="head_banner single_slider" style="background-image: url('./images/giohang.png');">
                 <h1>Giỏ hàng</h1>
@@ -133,22 +133,112 @@
                 </nav>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-7">
+                <form class="row" action="#" method="POST">
+                    <div class="col-lg-7 col-12">
                         <div class="card cart">
-                            <div class="card-header bg-primary">
-                                <img src="./images/shopping-cart(1).svg" alt="">
+                            <div class="card-header cart-header">
+                                <img src="./images/shopping-cart(1).svg" alt="Images">
                                 <h4>Thông tin đơn hàng: <span>2 sản phẩm</span></h4>
                             </div>
-                            <div class="card-body">
-                                .cart-item
+                            <div class="card-body cart-body">
+                                <div class="cb-head">
+                                    <h5>Hình ảnh</h5>
+                                    <h5>Tên sản phẩm</h5>
+                                    <h5>Số lượng</h5>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="ci-img">
+                                        <img src="./images/c1.png" class="ci-image" alt="Cart Item">
+                                        <a href="#" class="ci-button">
+                                            <img src="./images/close.png" alt="unCart Button">
+                                        </a>
+                                    </div>
+                                    <div class="ci-wrapper">
+                                        <div class="ci-name">
+                                            <h5>Mẫu ghế sofa đẹp GHS-8166 từ những năm 2000</h5>
+                                        </div>
+                                        <div class="ci-quantity">
+                                            <div class="quantity">
+                                                <input type="number" min="1" step="1" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="ci-img">
+                                        <img src="./images/c1.png" class="ci-image" alt="Cart Item">
+                                        <a href="#" class="ci-button">
+                                            <img src="./images/close.png" alt="unCart Button">
+                                        </a>
+                                    </div>
+                                    <div class="ci-wrapper">
+                                        <div class="ci-name">
+                                            <h5>Mẫu ghế sofa đẹp GHS-8166 từ những năm 2000</h5>
+                                        </div>
+                                        <div class="ci-quantity">
+                                            <div class="quantity">
+                                                <input type="number" min="1" step="1" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="ci-img">
+                                        <img src="./images/c1.png" class="ci-image" alt="Cart Item">
+                                        <a href="#" class="ci-button">
+                                            <img src="./images/close.png" alt="unCart Button">
+                                        </a>
+                                    </div>
+                                    <div class="ci-wrapper">
+                                        <div class="ci-name">
+                                            <h5>Mẫu ghế sofa đẹp GHS-8166 từ những năm 2000</h5>
+                                        </div>
+                                        <div class="ci-quantity">
+                                            <div class="quantity">
+                                                <input type="number" min="1" step="1" value="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <a class="card-footer" href="sofa-bantra.html">
+                                <img src="./images/add-to-cart.png" alt="Images">
+                                <h4>Chọn thêm sản phẩm khác</h4>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-5">
-
+                    <div class="col-lg-5 col-12 mt-lg-0 mt-3">
+                        <div class="card cart">
+                            <div class="card-header cart-header">
+                                <img src="./images/user-menu-w.png" alt="Images">
+                                <h4>Thông tin mua hàng</h4>
+                            </div>
+                            <div class="card-body cart-body">
+                                <div class="customer-info">
+                                    <div class="form-group mb-3">
+                                        <label for="hoten">Họ và tên</label>
+                                        <input type="text" name="hoten" id="hoten" class="form-control" placeholder="Nguyễn Văn A">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="sdt">Số điện thoại</label>
+                                        <input type="text" name="sdt" id="sdt" class="form-control" placeholder="090xxxxxxx">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="nguyenvana@gmail.com">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="diachi">Địa chỉ</label>
+                                        <textarea type="text" name="diachi" rows="3" id="diachi" class="form-control" placeholder="Nhập địa chỉ đầy đủ: Số nhà, tên đường, phường, xã"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-lg-3 mt-2">
+                            <a href="#" class="btn-order">Đặt hàng</a>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
         <!-- end-box-slide-kh -->
@@ -379,7 +469,7 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/thuy.js"></script>
+    <script src="./js/thuy.js"></script>
 </body>
 
 </html>

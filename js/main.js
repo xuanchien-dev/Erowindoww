@@ -306,5 +306,16 @@ $('.slide-left').slick({
         fade: false
     });
 
+$('.slide-right').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots:false,
+        infinite:true,
+        pauseOnHover:true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        fade: false
+    });
 
 

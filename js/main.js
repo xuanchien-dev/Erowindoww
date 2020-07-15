@@ -14,7 +14,24 @@ $(window).on('scroll', function () {
 
 
 
+/*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
 
+});
+ /*Scroll to top when arrow up clicked END*/
 
 $(document).ready(function(){
 
@@ -75,56 +92,9 @@ $('.slider_active').owlCarousel({
       columnWidth: 1
     }
   });
-
-  // filter items on button click
-  $('.portfolio-menu').on('click', 'button', function () {
-    var filterValue = $(this).attr('data-filter');
-    $grid.isotope({ filter: filterValue });
-  });
-
-  //for menu active class
-  $('.portfolio-menu button').on('click', function (event) {
-    $(this).siblings('.active').removeClass('active');
-    $(this).addClass('active');
-    event.preventDefault();
-	});
-  
-  // wow js
+// wow js
   new WOW().init();
-
-
-/* magnificPopup video view */
-$('.popup-video').magnificPopup({
-	type: 'iframe'
-});
-
-
-  // scrollIt for smoth scroll
-  $.scrollIt({
-    upKey: 38,             // key code to navigate to the next section
-    downKey: 40,           // key code to navigate to the previous section
-    easing: 'linear',      // the easing function for animation
-    scrollTime: 600,       // how long (in ms) the animation takes
-    activeClass: 'active', // class given to the active nav element
-    onPageChange: null,    // function(pageIndex) that is called when page is changed
-    topOffset: 0           // offste (in px) for fixed top navigation
-  });
-
-  // scrollup bottom to top
-  $.scrollUp({
-    scrollName: 'scrollUp', // Element ID
-    topDistance: '4500', // Distance from top before showing element (px)
-    topSpeed: 300, // Speed back to top (ms)
-    animation: 'fade', // Fade, slide, none
-    animationInSpeed: 200, // Animation in speed (ms)
-    animationOutSpeed: 200, // Animation out speed (ms)
-    scrollText: '<i class="fa fa-angle-double-up"></i>', // Text for element
-    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
-  });
-
-
-
-
+  // filter items on button click
 
   //about-pro-active
 $('.details_active').owlCarousel({
@@ -185,10 +155,7 @@ mailChimp();
             $("#search_input_box").slideToggle();
             $("#search_input").focus();
         });
-        $(document).ready(function() {
-          $('select').niceSelect();
-        });
-
+       
         // prise slider 
         // 
         
@@ -277,18 +244,28 @@ $('.box-st-mobile').slick({
     }
     ]
     });
-   
- $('.slide-big1').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: true,
-        dots:false,
-        infinite:true,
-        pauseOnHover:true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        fade: false,
-        responsive: [
+
+
+$('.slide-big').slick({
+    dots:false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    pauseOnHover:true,
+    autoplay: false,
+    fade: false,
+    Swipe: true,
+    asNavFor: '.slide-big1',
+  });
+  $('.slide-big1').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: true,
+    dots:false,
+    Swipe: true,
+    fade: false,
+    asNavFor: '.slide-big',
+     responsive: [
         {
             breakpoint: 1300,
             settings: 
@@ -313,9 +290,21 @@ $('.box-st-mobile').slick({
         }
     }
     ]
-    });
+  });
    
 
-  
+   
+$('.slide-left').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots:false,
+        infinite:true,
+        pauseOnHover:true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        fade: false
+    });
+
 
 

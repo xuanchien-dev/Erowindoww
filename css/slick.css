@@ -89,6 +89,7 @@
 .slick-slide img
 {
     display: block;
+    outline: none;
 }
 .slick-slide.slick-loading img
 {
@@ -101,6 +102,7 @@
 .slick-initialized .slick-slide
 {
     display: block;
+    outline: none;
 }
 .slick-loading .slick-slide
 {

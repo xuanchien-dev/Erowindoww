@@ -54,6 +54,30 @@
 }
 
 
+/* ///////////////////////csss-thanh scoll /////////////
+}
+ */
+/* Track */
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #0D3996;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/*Handle
+*/
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #fff;
+    -webkit-box-shadow: inset 0 0 6px rgb(144, 144, 144);
+}
+
+
 
 
 

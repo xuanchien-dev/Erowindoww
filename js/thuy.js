@@ -99,6 +99,15 @@ $(document).ready(function () {
         dots: false,
         loop: true,
         responsiveRefreshRate: 200,
+        responsive: {
+            600: {
+                items: 1,
+                autoplay: true,
+            },
+            1000: {
+                items: 1,
+            }
+        },
         onChanged: syncPosition,
     });
 
@@ -157,7 +166,7 @@ $(document).ready(function () {
 
     $('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-chevron-up" aria-hidden="true"></i></div><div class="quantity-button quantity-down"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></div>').insertAfter('.quantity input');
     $('.quantity').each(function () {
-        var spinner = jQuery(this),
+        var spinner = $(this),
             input = spinner.find('input[type="number"]'),
             btnUp = spinner.find('.quantity-up'),
             btnDown = spinner.find('.quantity-down'),

@@ -2,7 +2,11 @@
 .head-section {
     margin-bottom: 0;
 }
-
+.cat-section .box-category .img-category .bf-r:before{
+ content:url('../images/img-sofa1-bf.png');
+ position: absolute;
+ right: 0px;
+}
 .head_banner {
     display: flex;
     justify-content: center;
@@ -11,7 +15,13 @@
     position: relative;
     /* background: transparent linear-gradient(180deg, #FFFFFF00 0%, #C2C6CE30 25%, #273853A8 70%, #001433C7 100%) 0% 0% no-repeat padding-box; */
 }
-
+.cat-section .box-category.img-category.bf-l img{
+    position: absolute;
+    width: auto;
+    top: 0;
+    right: -10px;
+    height: 320px;
+}
 .head_banner::before {
     content: "";
     position: absolute;
@@ -26,9 +36,8 @@
     position: relative;
     color: #FFFFFF;
     font-size: 40px;
-    font-weight: bold;
+    font-family: Bold;
     text-align: center;
-    font: Medium 40px/49px Helvetica Neue;
 }
 
 .head_banner h1::before {
@@ -57,25 +66,40 @@
 
 .cat-section .box-category .desc-category h2 {
     color: #0D3996;
-    font-weight: bold;
+    font-family: Bold;
     font-size: 28px;
     margin-bottom: 32px;
     line-height: 1.25;
 }
-
+    
 .cat-section .box-category .desc-category p {
     color: #141414;
     font-size: 14px;
     margin-bottom: 32px;
-    line-height: 1.25;
+    line-height: 25px;
     text-align: left;
+    font-family: Regular;
     width: 90%;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
     overflow: hidden;
 }
-
+.cat-section .box-category .img-category .bf-tivi:before{
+    content: url(../images/bf-tivi.png);
+    position: absolute;
+    right: 0px;
+}
+.cat-section .box-category .img-category .bf-l.bf-l-tu-giay:before{
+    content: url(../images/bf-tugiay.png);
+    position: absolute;
+    left: 0px;
+}
+.cat-section .box-category .img-category .bf-r.bf-tivi.bf-g-ngu:before{
+    content: url(../images/bf-g-ngu.png);
+    position: absolute;
+    right: 0px;
+}
 .cat-section .box-category .desc-category a.btn {
     color: #004FA1;
     border: 1px solid #004FA1;
@@ -93,15 +117,27 @@
     line-height: 1.25;
 }
 
-.cat-section .box-category .img-category img {
+.cat-section .box-category .img-category.bf-r img {
     position: absolute;
-    width: 100%;
+    width: auto;
     top: 0;
-    right: 0;
-    object-fit: cover;
+    left: -15px;
     height: 320px;
 }
-
+.bf-r img, .bf-l img{
+    position: absolute;
+}
+.bf-r{
+    margin-left: -30px;
+}
+.bf-l img{
+    right: -15px
+}
+.cat-section .box-category .img-category .bf-l:before{
+ content:url('../images/sf-2-bf.png');
+ position: absolute;
+ left: 0px;
+}
 .cat-section:nth-child(odd) .box-category .row {
     flex-direction: row-reverse;
 }
@@ -123,6 +159,9 @@
 .cat-section:nth-child(odd) .box-category .desc-category p {
     text-align: right;
     float: right;
+    font-size: 14px;
+    font-family: Regular;
+    color: #141414;
 }
 
 .cat-section:nth-child(odd) .box-category .desc-category a {
@@ -158,6 +197,7 @@
 
 .p-slider .owl-nav div.owl-prev {
     left: -25px !important;
+    outline: none !important;
 }
 
 .p-slider .owl-nav div i {
@@ -176,14 +216,25 @@
     margin-bottom: 0;
     height: 40px;
     padding: .5rem 1rem;
+    font-family: Regular;
+    font-size: 14px;
+    color: #141414;
 }
-
+.item .p-head h6:hover{
+    color: #0D3996;
+    font-weight: bold;
+}
+.p-content h6{
+   font-family: Regular;
+   font-size: 14px;
+   color: black;
+}
 .item .p-head h5 {
     margin-top: 5px;
     margin-bottom: 0;
     height: 40px;
     font-size: 14px;
-    font-weight: bold;
+    font-family: Bold;
     padding: .5rem 0;
 }
 
@@ -447,7 +498,7 @@
 
 .product-detail .product-name {
     font-size: 18px;
-    font-weight: bold;
+    font-family: Bold;
     color: #141414;
     letter-spacing: 1.04px;
 }
@@ -627,7 +678,7 @@
 
 .pd-section .h-section h4 {
     margin: 0;
-    font-weight: bold;
+    font-family: Bold;
     color: #141414;
 }
 
@@ -658,7 +709,7 @@
 
 .pd-section .h-section .nav-item .nav-link.active {
     color: #004FA1;
-    font-weight: bold;
+    font-family: Bold;
 }
 
 .pd-section .h-section .cmt-filter {
@@ -765,7 +816,7 @@
 
 .pd-section .b-section .evaluation .eval-percent {
     color: rgba(239, 166, 37, 1);
-    font-weight: bold;
+    font-family: Bold;
 }
 
 .pd-section .b-section .evaluation .eval-num {

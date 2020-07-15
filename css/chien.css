@@ -14,6 +14,10 @@
    font-family: 'Italic';
    src: url(../fonts/Montserrat-Italic.ttf);
 }
+@font-face {
+   font-family: 'Medium';
+   src: url(../fonts/Montserrat-Medium.ttf);
+}
 
 body {
    font-size: 14px;
@@ -1734,4 +1738,55 @@ h2.contact-title.title-tin-tuc{
   background-color: #F5F5F5;
   margin-top: -15px;
   margin-bottom: 10px;
+}
+.no-border{
+  border: none !important;
+  padding: 10px 20px;
+  background-color: #F5F5F5;
+}
+.nguon{
+  position: absolute;
+  right: 35px;
+}
+.nguon a{
+  color: #004FA1;
+  font-size: 14px;
+  font-family: Italic;
+}
+.title-col-3-ct h2{
+  font-size: 18px;
+  color: #fff;
+  font-family: Bold ;
+  background-color: #0D3996;
+  text-align: center;
+  padding: 10px 0px;
+  margin-bottom: 15px;
+}
+.box-tin-col-3 h3{
+  color: #292929;
+  font-size: 14px;
+  font-family: Medium;
+}
+.box-tin-col-3 img{
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+}
+.box-tin-col-3{
+  margin: 20px 0px;
+}
+.view-all-tin a{
+  font-size: 14px;
+  font-family: Regular;
+  color: #004FA1;
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 10px 0px;
+  display: block;
+}
+.img-banner-qc img{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin: 20px 0px;
 }

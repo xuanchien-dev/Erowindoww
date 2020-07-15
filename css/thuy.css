@@ -28,6 +28,7 @@
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
     font: Medium 40px/49px Helvetica Neue;
 }
 
@@ -964,6 +965,57 @@
     color: #0D3996;
     border: 1px solid #0D3996;
     background-color: #FFFFFF;
+}
+
+/* Trang gioi thieu */
+.introduce .intro:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+.introduce .intro:nth-child(even)::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(13, 57, 150, .3);
+}
+
+.introduce .intro .intro-title {
+    position: relative;
+    font-size: 24px;
+    font-family: Bold;
+    color: #0D3996;
+    padding-left: 75px;
+    margin: 0;
+}
+
+.introduce .intro .intro-title::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background-color: #0D3996;
+    transform: translate(-150%, 400%);
+}
+
+.introduce .intro .intro-banderol {
+    color: #141414;
+    font-family: Bold;
+}
+
+.introduce .intro .intro-content {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #141414;
+}
+
+.introduce .intro .intro-content p{
+    font-size: 14px;
+    font-family: Regular;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: .5rem;
 }
 
 @media (max-width: 576px) {

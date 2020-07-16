@@ -609,7 +609,7 @@ p {
 }
 
 
-/* css-trang chÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â§ */
+/* css-trang chÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ */
 
 
 /* //////////////////css-box-video /////////////*/
@@ -979,7 +979,7 @@ img {
 .no-paddinh{
   padding: 0px;
 }
-/* /////////////////css-tin tÃƒÂ¡Ã‚Â»Ã‚Â©c//////////////// */
+/* /////////////////css-tin tÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â©c//////////////// */
 .bg-new{
   background-color: #E4E4E4;
 }
@@ -1072,7 +1072,7 @@ i.fa.fa-clock-o{
 .box-all-new{
   margin-bottom: 20px;
 }
-/* ////////////css-dÃƒÂ¡Ã‚Â»Ã‚Â± ÃƒÆ’Ã‚Â¡n/////////////// */
+/* ////////////css-dÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»Ãƒâ€šÃ‚Â± ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡n/////////////// */
 .bg-da{
  background-image: url(../images/bg-ft.png);
  background-size: cover;
@@ -1095,6 +1095,7 @@ i.fa.fa-clock-o{
 .header-area .main-header-area.dky .main-menu ul li a,
 .header-area .main-header-area.dky .seach_icon a i{
   color: #fff;
+  text-transform: uppercase;
 }
 .login-page {
     font-weight: normal;
@@ -1806,6 +1807,7 @@ h2.contact-title.title-tin-tuc{
   text-transform: uppercase;
   font-family: Bold;
   position: relative;
+  z-index: 9;
 }
 .slider_text.text-center.slide-datb h2:after{
  content: "";
@@ -2005,4 +2007,43 @@ a.view-more:hover{
 }
 .title-content-da.datb{
   position: inherit;
+}
+/*css-decoer-tt*/
+.slide-decor-tt1{
+  background-image: url(../images/decortt.png);
+}
+.slide-decor-tt2{
+  background-image: url(../images/bn5.jpg);
+}
+
+.single_slider.d-flex.align-items-center .overlay:before {
+    position: absolute; 
+    content: "";
+    background-color: #040E27;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: .2;
+}
+.p-slider .owl-nav div.owl-prev{
+  background: rgba(19, 113, 185, .2) 0% 0% no-repeat padding-box;
+}
+.p-slider .owl-nav div.owl-next{
+  background: rgba(19, 113, 185, .2) 0% 0% no-repeat padding-box;
+}
+.p-slider .owl-nav div.owl-prev:hover, .p-slider .owl-nav div.owl-next:hover{
+ background-color: #0D3996;
+}
+/*css-thiet bi bep robam*/
+.slide-robam-t1{
+    background-image: url(../images/bn-robam.png);
+}
+.slide-robam-t2{
+    background-image: url(../images/bn4.png);
+}
+.d-product ul li{
+    width: 100%;
+    display: inline-flex;
 }

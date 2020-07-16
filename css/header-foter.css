@@ -47,6 +47,7 @@
   width: 100%;
   z-index: 9;
   position: relative;
+  box-shadow: 2px 4px 6px #00000029;
 }
 .header-area .main-header-area.sticky .box-login{
       margin-top: 40px;

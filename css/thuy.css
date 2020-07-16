@@ -223,11 +223,14 @@
 .item small {
     font-size: 14px;
     color: #171717;
+    font-family: Regular;
+    padding-top: 10px;
 }
 
 .item small i {
     font-size: 14px;
     color: #171717;
+
 }
 
 .item .p-head img {
@@ -667,6 +670,7 @@
     margin: 0;
     font-family: Bold;
     color: #141414;
+    font-size: 21px;
 }
 
 .pd-section .h-section a {
@@ -692,6 +696,7 @@
     color: #141414;
     padding: 0;
     opacity: 1;
+    font-family: Regular;
 }
 
 .pd-section .h-section .nav-item .nav-link.active {

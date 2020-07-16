@@ -17,7 +17,7 @@ $(document).ready(function () {
         animateIn: 'fadeIn',
         responsive: {
             0: {
-                items: 1.4,
+                items: 2,
                 nav: false,
                 margin: 10,
                 center: true,
@@ -52,25 +52,31 @@ $(document).ready(function () {
         autoplaySpeed: 700,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        responsive: {
-            0: {
-                items: 1,
-                nav: false,
+        responsive: [
+        {
+            breakpoint: 1300,
+            settings: 
+            {
+            slidesToShow: 4,
+            arrows: false   
+                }
             },
-            767: {
-                items: 1,
-                nav: false,
-                center: true,
-            },
-            992: {
-                items: 1,
-                nav: false,
-                center: true,
-            },
-            1200: {
-                items: 1
-            },
+         {
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 3,
+            arrows: false
+
+                }
+             },
+         {
+        breakpoint: 475,
+        settings: {
+            slidesToShow: 1,
+            arrows: false   
         }
+    }
+    ]
     });
 
     $('.btn-cart').hover(function () {

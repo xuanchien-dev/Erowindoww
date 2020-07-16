@@ -62,5 +62,9 @@
     .login-page{
         padding: 0px !important;
     }
+    #back2Top{
+        display: none;
+        opacity: -1;
+    }
 
 }

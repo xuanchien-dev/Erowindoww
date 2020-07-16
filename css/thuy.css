@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px !important;
     position: relative;
     /* background: transparent linear-gradient(180deg, #FFFFFF00 0%, #C2C6CE30 25%, #273853A8 70%, #001433C7 100%) 0% 0% no-repeat padding-box; */
 }
@@ -25,7 +24,8 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: transparent linear-gradient(180deg, #FFFFFF00 0%, #C2C6CE30 25%, #273853A8 70%, #001433C7 100%) 0% 0% no-repeat padding-box;
+    background: black;
+    opacity: 0.2;
 }
 
 .head_banner h1 {

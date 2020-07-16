@@ -2047,3 +2047,6 @@ a.view-more:hover{
     width: 100%;
     display: inline-flex;
 }
+.head_banner .rem{
+  left: -3px;
+}

@@ -318,4 +318,25 @@ $('.slide-right').slick({
         fade: false
     });
 
+// slide đôi dự án tiêu bieu
+   
+$('.slide-left-datb').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots:false,
+        pauseOnHover:true,
+        autoplay: false,
+        fade: false,
+        // asNavFor: '.title-content-da.datb',
+    });
+    // $('.title-content-da.datb').slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     arrows: false,
+    //     dots:false,
+    //     fade: false,
+    //     asNavFor: '.slide-left-datb',
+    // });
 
+   

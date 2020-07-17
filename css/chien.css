@@ -2328,7 +2328,7 @@ a.view-more:hover{
   height: 200px;
   overflow: hidden;
 }
-.box-all-new .div-img img,.box-all-new .div-img.right img, .if-map img{
+.box-all-new .div-img img,.box-all-new .div-img.right img, .if-map img,.thu-ngo img{
  width: 100%;
  height: 100%;
 }
@@ -2410,4 +2410,67 @@ a.view-more:hover{
   color: #141414;
   font-family: Regular;
   margin-top: 20px;
+}
+/*css gioi thieu*/
+.thu-ngo{
+  position: relative;
+  z-index: 99;
+}
+.thu-ngo-2 img{
+  position: absolute;
+  width: 472px;
+  height: 442px;
+  top: -160px;
+  right: -400px;
+}
+.main-section.gt{
+  position: relative;
+}
+.su-menh img{
+  position: relative;
+  right: -400px;
+}
+.su-menh .su-menh-1 img{
+  position: absolute;
+  top: 101px;
+  right: -445px;
+} 
+.su-menh .su-menh-2 img{
+  position: absolute;
+  top: 322px;
+  left: 348px;
+}
+.intro-content.su-menh p{
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    min-height: 105px;
+}
+.intro-content.su-menh.gtcl p{
+   overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    min-height: 85px;
+}
+.img-su-menh{
+  height: 412px;
+  width: 730px;
+}
+.su-menh-2.gtcl img{
+  position: absolute;
+    top: 360px;
+    left: 348px;
+}
+.su-menh-1.gtcl img{
+    position: absolute;
+    top: 60px;
+    right: -445px;
+}
+.gia-tri-cl{
+   height: 486px;
+   width: 730px;
 }

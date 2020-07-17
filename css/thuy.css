@@ -1005,6 +1005,8 @@
 /* Trang gioi thieu */
 .introduce .intro:nth-child(even) {
     background-color: #EEEEEE;
+    transform: translateY(-242px);
+    z-index: -1;
 }
 
 .introduce .intro:nth-child(even)::before {
@@ -1023,6 +1025,7 @@
     color: #0D3996;
     padding-left: 75px;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .introduce .intro .intro-title::before {

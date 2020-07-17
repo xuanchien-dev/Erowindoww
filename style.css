@@ -16,6 +16,9 @@
 .mt-10{
 	margin-top: 10px;
 }
+.mt-300{
+  margin-top: 300px;
+}
 .mt-15{
 	margin-top: 15px;
 }
@@ -43,6 +46,12 @@
 /* line 284, ../../Arafath/CL/December/231. Travel-02/HTML/scss/theme-default.scss */
 .mb-20px {
   margin-bottom: 20px;
+}
+.mb-300 {
+  margin-bottom: 300px;
+}
+.mb-180 {
+  margin-bottom: -180px;
 }
 .mb-15 {
   margin-bottom: 15px;

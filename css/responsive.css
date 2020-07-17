@@ -62,7 +62,7 @@
     .login-page{
         padding: 0px !important;
     }
-    #back2Top{
+    #back2Top,.nguon a {
         display: none;
         opacity: -1;
     }

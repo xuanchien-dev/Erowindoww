@@ -1004,7 +1004,7 @@ img {
 i.fa.fa-clock-o{
   font-size: 20px;
   margin-right: 10px;
-  color: #141414ab;
+  color: #14141487;
 }
 .time-new span{
   font-size: 14px;
@@ -1627,6 +1627,9 @@ a.view-more:hover{
 }
 .ic-time{
   margin-right: 50px;
+  display: flex;
+  margin: 10px 0px;
+
 }
 .photo-pade img{
   margin-left: 15px;
@@ -1767,15 +1770,16 @@ h2.contact-title.title-tin-tuc{
   color: #292929;
   font-size: 14px;
   font-family: Medium;
+  display: block;
 }
-.box-tin-col-3 a:hover{
+.box-tin-col-3 a:hover,.box-tin a:hover{
   color: #0D3996;
   font-weight: bold;
 }
 .box-tin-col-3 img{
   display: block;
   width: 100%;
-  margin: 10px 0px;
+  height: 100%;
 }
 .box-tin-col-3{
   margin: 20px 0px;
@@ -2049,4 +2053,79 @@ a.view-more:hover{
 }
 .head_banner .rem{
   left: -3px;
+}
+/*css-trang tin*/
+.tin .title h2{
+  color: #141414;
+  font-size: 18px;
+  font-family: Medium;
+  margin-bottom: 0px;
+}
+.menu-dm-tin ul li{
+  text-align: center;
+  padding: 10px 20px;
+  color: #141414;
+  font-size: 18px;
+  font-family: Medium;
+  border: 1px solid #C5C5C5;
+
+}
+ .menu-dm-tin h2{
+  font-size: 18px;
+  color: #fff;
+  font-family: Bold ;
+  background-color: #0D3996;
+  text-align: center;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+
+}
+.menu-dm-tin ul li:hover{
+  background-color: #0D3996;
+
+}
+.menu-dm-tin ul li:hover a{
+  color: #fff;
+
+}
+.box-tin a{
+  color: #292929;
+  font-size: 18px;
+  font-family: Medium;
+  margin: 15px 0px;
+  display: block;
+}
+.box-tin p{
+  font-family: Regular;
+  font-size: 14px;
+  color: #141414;
+  margin: 15px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.box-img-top{
+   overflow: hidden;
+   height: 350px;
+}
+.box-img-top a{
+  margin-top: 0px;
+}
+.box-img-top a img {
+  height: 100%; 
+  width: 100%;
+}
+.box-tin-col-3 .box-img-top-center a{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+a {}
+.box-img-top-center{
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }

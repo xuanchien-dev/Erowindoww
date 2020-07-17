@@ -78,7 +78,17 @@ $('.slider_active').owlCarousel({
   }
 });
 
+$(document).ready(function(){
+  $(".change_type").click(function(){
+    $(this).toggleClass("fa-fa-eye");
+    if($(this).hasClass("fa-fa-eye")){
+      $("#password").attr("type",'text');
+    }else{
+     $("#password").attr("type",'password');
+   }
 
+ });               
+});             
 
 
 
@@ -328,15 +338,15 @@ $('.slide-left-datb').slick({
         pauseOnHover:true,
         autoplay: false,
         fade: false,
-        // asNavFor: '.title-content-da.datb',
+        asNavFor: '.title-content-da.datb',
     });
-    // $('.title-content-da.datb').slick({
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     arrows: false,
-    //     dots:false,
-    //     fade: false,
-    //     asNavFor: '.slide-left-datb',
-    // });
+    $('.title-content-da.datb').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots:false,
+        fade: false,
+        asNavFor: '.slide-left-datb',
+    });
 
    

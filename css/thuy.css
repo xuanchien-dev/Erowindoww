@@ -94,7 +94,7 @@
 .cat-section .box-category .desc-category a.btn:hover,
 .cat-section .box-category .desc-category a.btn:focus {
     color: #FFFFFF !important;
-    background-color: #004FA1 !important;
+    /*background-color: #004FA1 !important;*/
     font-size: 14px;
     padding: .6rem 2rem;
     line-height: 1.25;
@@ -1006,7 +1006,7 @@
 .introduce .intro:nth-child(even) {
     background-color: #EEEEEE;
     transform: translateY(-242px);
-    z-index: -1;
+    z-index: 2;
 }
 
 .introduce .intro:nth-child(even)::before {

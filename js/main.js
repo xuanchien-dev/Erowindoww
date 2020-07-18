@@ -254,7 +254,42 @@ $('.box-st-mobile').slick({
     }
     ]
     });
+$('.slide-thanh-tuu').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        dots:false,
+        infinite:true,
+        pauseOnHover:true,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        fade: false,
+        responsive: [
+        {
+            breakpoint: 1300,
+            settings: 
+            {
+            slidesToShow: 4,
+            arrows: false   
+                }
+            },
+         {
+        breakpoint: 768,
+        settings: {
+            slidesToShow: 2,
+            arrows: false
 
+                }
+             },
+         {
+        breakpoint: 475,
+        settings: {
+            slidesToShow: 1,
+            arrows: false   
+        }
+    }
+    ]
+    });
 
 $('.slide-big').slick({
     dots:false,

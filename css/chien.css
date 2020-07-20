@@ -1413,7 +1413,8 @@ a.view-more:hover{
   width: 770px;
   height: 575px;
   margin: 0 auto;
-  margin-right: 22px;
+  margin-right: 42px;
+  top: -300px;
 }
 .slide-big.slick-initialized.slick-slider img{
   height: 575px;
@@ -1508,14 +1509,14 @@ a.view-more:hover{
   position: absolute;
   bottom: -80px;
   height: 221px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .slide-right{
   width: 220px;
   height: 262px;
   position: absolute;
   bottom: 30px;
-  right: -20px;
+  right: -5px;
 }
 .slide-right img{
   width: 100% ;
@@ -1604,13 +1605,15 @@ a.view-more:hover{
     color: #fff;
 }
 .title-content-da-index {
-    position: absolute;
+    position: relative;
+    width: 420px;
+    overflow: hidden;
 }
 .title-content-da-index h3:after{
   content:url('../images/carot.png');
   position: absolute;
   left: 0px;
-  z-index: 99;
+  z-index: 999;
 }
 .title-index-kh.da-index h2 {
     color: #fff;
@@ -2838,4 +2841,8 @@ a.view-more:hover{
 .desc-why-06{
   right: -130px;
   text-align: left;
+}
+.z-index{
+  position: relative;
+  z-index: 9999;
 }

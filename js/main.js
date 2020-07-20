@@ -303,6 +303,17 @@ $('.slide-td').slick({
     });
 
    
+$('.title-content-da-index').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots:false,
+        infinite:true,
+        pauseOnHover:true,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        fade: false
+    });
 
 $('.slide-big').slick({
     dots:false,

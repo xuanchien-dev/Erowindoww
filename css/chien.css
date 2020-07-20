@@ -18,6 +18,10 @@
    font-family: 'Medium';
    src: url(../fonts/Montserrat-Medium.ttf);
 }
+@font-face {
+   font-family: 'SemiBold';
+   src: url(../fonts/Montserrat-SemiBold.ttf);
+}
 
 body {
    font-size: 14px;
@@ -2659,4 +2663,179 @@ a.view-more:hover{
   font-size: 14px;
   color: #141414;
   margin-top: 20px;
+}
+/*css-thong tin tai khoan*/
+.avatar-tk>img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: relative;
+  top: -65px;
+  margin: 0 auto;
+  display: block;
+}
+.avatar-tk{
+  border-right: 1px solid #F6F6F6;
+}
+.bd-right{
+  background-color: #fff;
+}
+
+.avatar-tk input{
+  width: 20%;
+  position: absolute;
+  z-index: 99;
+  opacity: 0;
+  right: 63px;
+  cursor: pointer;
+  height: 36%;
+  top: 0px;
+}
+.camera-tk{
+  position: absolute;
+  right: 65px;
+  top: 10px;
+}
+.desc-tk ul{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: -30px;
+  margin-left: 70px;
+}
+.af,.af2{
+  position: relative;
+}
+.af:after{
+  content: url(../images/avata2.png);
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  left: -35px;
+}
+.af2:after{
+  content: url(../images/out.png);
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  left: -35px;
+}
+.tt-tk-left{
+  width: 48%;
+  float: left;
+}
+.tt-tk-left input,.tt-tk-right input{
+  height: 40px;
+}
+.tt-tk-right{
+  width: 48%;
+  float: right;
+}
+.form-tt-lh label,.needs-validation label{
+  font-family: SemiBold;
+  font-size: 14px;
+  color: #171717;
+}
+.dc-add-drees select{
+  height: 40px;
+  padding: 1px 30px;
+  border: 1px solid #ABABAB;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.chiller_cb input{
+  border-radius: 50%;
+}
+.needs-validation button{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  padding: 0px 40px;
+  border: none;
+  background-color: #0D3996;
+  color: #fff;
+  font-family: Regular;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.needs-validation button i{
+  margin-right: 20px;
+  font-size: 18px;
+}
+.img-why-pc>img{
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+.img-1{
+  position: absolute;
+  top: 0px;
+  left: 88px;
+}
+.img-why-pc .desc-why h3{
+  font-size: 14px;
+  font-family: Bold;
+  color: #363430;
+}
+.desc-why{
+  position: absolute;
+  text-align: right;
+  display: inline-block;
+  right: 275PX;
+  width: 305px;
+  top: 10px;
+}
+.desc-why p{
+  line-height: 26px;
+  font-family: Regular;
+  
+  font-size: 13px;
+  
+  color: #272A39;
+}
+.img-2{
+  position: absolute;
+  top: 38%;
+  left: 31px;
+}
+.desc-why-02{
+  right: 190px;
+}
+.img-3{
+ position: absolute;
+ left: 91px;
+ bottom: 0px;
+}
+.desc-why-03{
+  right: 275px;
+}
+.img-4{
+ right: 89px;
+    position: absolute;
+    top: 5px;
+}
+.desc-why-04{
+  right: -120px;
+  text-align: left;
+}
+.img-5{
+ right: 31px;
+ position: absolute;
+ top: 36%;
+}
+.desc-why-05{
+  right: -130px;
+  text-align: left;
+}
+.img-6{
+ right: 94px;
+ position: absolute;
+ bottom: 0px;
+}
+.desc-why-06{
+  right: -130px;
+  text-align: left;
 }

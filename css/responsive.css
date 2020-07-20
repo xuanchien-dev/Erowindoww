@@ -21,6 +21,14 @@
 
     
 }
+@media (max-width: 1400px) {
+    .rem {
+        position: absolute;
+        top: 0px;
+        width: 20.3% !important;
+    }
+   
+}
 @media (max-width: 1200px) {
     .box-login{
         display: none !important;

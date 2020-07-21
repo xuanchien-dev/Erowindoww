@@ -212,12 +212,11 @@
 }
 
 .item .p-head h5 {
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 0;
     height: 40px;
     font-size: 14px;
     font-family: Bold;
-    padding: .5rem 0;
 }
 
 .item small {
@@ -874,7 +873,7 @@
 }
 
 .cart .cart-header img{
-    height: 28px;
+    height: 20px;
     width: auto;
     object-position: 50% 50%;
     object-fit: cover;
@@ -1118,7 +1117,7 @@
 
     .order-section .order-criterias {
         display: none;
-        margin-top: 0 !important;
+        margin-top: 0.8 !important;
     }
 
     .o-crit {

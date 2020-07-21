@@ -17,7 +17,7 @@ $(document).ready(function () {
         animateIn: 'fadeIn',
         responsive: {
             0: {
-                items: 2,
+                items: 1,
                 nav: false,
                 margin: 10,
                 center: true,

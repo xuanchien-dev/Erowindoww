@@ -311,7 +311,7 @@ $('.title-content-da-index').slick({
         infinite:true,
         pauseOnHover:true,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2500,
         fade: false
     });
 
@@ -331,6 +331,7 @@ $('.slide-big').slick({
     slidesToScroll: 1,
     arrows: true,
     dots:false,
+     margin:15,
     Swipe: true,
     fade: false,
     asNavFor: '.slide-big',

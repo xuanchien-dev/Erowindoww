@@ -120,7 +120,7 @@ p {
      text-align: center;
      font-size: 30px;
      text-decoration: none;
-     right: 10px;
+     right: 20px;
      z-index: 9999;
      border-radius: 50%;
 }
@@ -2891,3 +2891,64 @@ a.view-more:hover{
   width: 100%;
 }
 
+.box-da.biet-thu .slide-right{
+  top: 20% !important; 
+}
+.box-da.biet-thu .slide-big1,.bg-slide-white .slide-big1{
+  height: 130px !important; 
+}
+.echbay-sms-messenger {
+    text-align: center;
+    width: 45px;
+    position: fixed;
+    bottom: 101px;
+    right: 20px;
+    display: block;
+    z-index: 999;
+}
+.echbay-sms-messenger a {
+    display: block;
+    line-height: 45px;
+    text-indent: -9999px;
+}
+.echbay-sms-messenger .phonering-alo-zalo,.echbay-sms-messenger .phonering-alo-alo,.echbay-sms-messenger .phonering-alo-sms,
+.echbay-sms-messenger .phonering-alo-messenger {
+    background-color: #0084ff;
+    height: 45px;
+    width: 45px;
+}
+.echbay-sms-messenger .phonering-alo-alo {
+    background-image: url(../images/calll.png);
+}
+.echbay-sms-messenger:first-child {
+    margin-top: 0;
+}
+.echbay-sms-messenger div{
+    margin: 14px 0;
+    background: #0084FF center no-repeat;
+    background-size: 70%;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px #888;
+}
+.echbay-sms-messenger a {
+    line-height: 45px;
+}
+.echbay-sms-messenger a {
+    display: block;
+    line-height: 45px;
+    text-indent: -9999px;
+}
+.echbay-sms-messenger .phonering-alo-sms {
+    background-image: url(../images/maill.png);
+    background-size: 60%;
+}
+.echbay-sms-messenger .phonering-alo-zalo {
+    background-image: url(../images/zalo.png);
+}
+
+.echbay-sms-messenger .phonering-alo-messenger {
+    background-image: url(../images/messenger.png);
+}
+.echbay-sms-messenger:last-child {
+    margin-bottom: 0;
+}

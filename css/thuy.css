@@ -427,9 +427,9 @@
 
 .main-section .cat-pagination .page-item .page-link {
     border: none;
-    font-size: 21px;
-    height: 48px;
-    width: 48px;
+    font-size: 14px;
+    height: 35px;
+    width: 35px;
     text-align: center;
     border-radius: 50%;
     color: #141414;

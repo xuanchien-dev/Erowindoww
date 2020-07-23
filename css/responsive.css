@@ -412,6 +412,15 @@
     .row.imglist .mb-55{
         margin-bottom: 0px !important;
     }
+    .bg-new {
+        margin-bottom: 20px !important;
+    }
+    .slicknav_nav a {
+      margin: 0px !important;
+    }
+    .box-td .slider_text-td h2{
+        left: 0px !important;
+    }
 
 
 
@@ -432,28 +441,28 @@
         margin-left: 10% !important;
     }
     .float-right {
-        margin-right: 6%;
+        /*margin-right: 6%;*/
     }
     .float-left {
-         margin-left: 6%;
+        /* margin-left: 6%;*/
     }
     .img-1 {
-        left: 238px !important;
+        left: 220px !important;
     }
     .img-2{
-        left: 180px !important;
+        left: 160px !important;
     }
     .img-3 {
-        left: 240px !important;
+        left: 220px !important;
     }
     .img-4 {
-        right: 240px !important;
+        right: 220px !important;
     }
      .img-5{
-        right: 180px !important;
+        right: 160px !important;
     }
     .img-6{
-        right: 240px !important;
+        right: 220px !important;
     }
     .slide-big {
         width: 1028px !important;

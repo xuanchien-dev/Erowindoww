@@ -343,9 +343,9 @@
 }
 
 .order-section .order-criterias .order-criteria .dropdown-menu {
-    width: 100%;
+    /* width: 100%; */
     border: none;
-    transform: translate3d(0px, 34px, 0px);
+    /* transform: translate3d(0px, 34px, 0px); */
     border-radius: unset;
     overflow: hidden;
 }
@@ -1727,11 +1727,12 @@
 }
 
 .order-section .order-criterias .order-criteria .dropdown-menu {
-    width: 100%;
-    border: none;
-    transform: translate3d(0px, 34px, 0px);
+    width: auto;
+    /* border: none; */
+    /* transform: translate3d(0px, 34px, 0px); */
     border-radius: unset;
-    overflow: hidden;
+    /* overflow: hidden; */
+    transform: translate3d(0px, 34px, 0px)!important;
 }
 
 .order-section .order-criterias .order-criteria .dropdown-menu .dropdown-item {

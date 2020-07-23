@@ -325,7 +325,7 @@ p {
 }
 
 .slider_area .single_slider {
-  height: 650px;
+  height: 344px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1460,6 +1460,7 @@ a.view-more:hover{
     outline: none;
     border-radius: 0 !important;
     opacity: 0.8;
+    cursor: pointer;
     }
 .box-da .slick-next:before{
   content: "";
@@ -1486,8 +1487,8 @@ a.view-more:hover{
 .slide-left {
   width: 335px;
   position: absolute;
-  bottom: -82px;
-  height: 221px;
+  bottom: -134px;
+  height: 245px;
   margin-left: 0px;
 }
 .slide-right{
@@ -1556,10 +1557,15 @@ a.view-more:hover{
   display: flex;
   margin: 20px 0px;
 }
-.desc-td h3{
-  font-size: 14px;
-  color: #141414;
-  font-family: Bold; 
+a.a-jobs{
+  font-size: 14px !important;
+  color: #141414  !important;
+  font-family: Bold  !important; 
+  padding: 0 !important;
+  border: none !important;
+}
+a.a-jobs:hover{
+  color: #0D3996 !important;
 }
 .desc-td{
   margin-left: 20px;
@@ -2992,7 +2998,7 @@ a.view-more:hover{
     min-width: 250px;
     text-align: left;
     top: 0px;
-    left: 0;
+    left: 11px;
 }
 .title-page_home h6:after {
     content: '';
@@ -3015,14 +3021,10 @@ a.view-more:hover{
     left: -80px;
     }
   .title-page_home div h5{
-    
-position: absolute;
-    
-top: 23px;
-    
-font-size: 30px;
-    
-color: #fff;
+    position: absolute;
+    top: 23px;
+    font-size: 30px;
+    color: #fff;
   }
 .echbay-sms-messenger:hover{
   cursor: pointer;
@@ -3133,4 +3135,24 @@ color: #fff;
 }
 .single_slider>img{
   width: 100%;
+}
+.main-section.gt .dtcl{
+  margin-top: -235px;
+}
+.social{
+  margin-top: 7px !important;
+  margin-left: 20px !important;
+}
+.height-300{
+  height: 306px;
+}
+.slide-left img{
+  height: 245px;
+  width: 100%;
+}
+.slide-big1 img{
+  height: 132px;
+}
+.home-page .slider_area .single_slider{
+  height: 744px;
 }

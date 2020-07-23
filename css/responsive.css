@@ -412,7 +412,7 @@
     .row.imglist .mb-55{
         margin-bottom: 0px !important;
     }
-    .bg-new {
+    .bg-new.img-td {
         margin-bottom: 20px !important;
     }
     .slicknav_nav a {
@@ -421,6 +421,20 @@
     .box-td .slider_text-td h2{
         left: 0px !important;
     }
+    .box-vt-td{
+        display: inline-block !important;
+    }
+    .content-td-bottom .img-td{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .height-300{
+        height: auto !important ;
+    }
+    .home-page .slider_area .single_slider{
+        height: 344px !important;
+    }
+
 
 
 

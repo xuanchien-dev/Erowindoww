@@ -63,14 +63,14 @@ ul.submenu li a:after{
 }
 .bf{
   position: absolute;
-  bottom: -11px;
+  bottom: -10px;
   left: -135px;
   width: 340px;
   height: 200%;
   background-color: #fff;
 }
 .header-area .main-header-area.sticky .bo-1{
-  bottom: 0px;
+  bottom: -1px;
 }
 .header-area .main-header-area.sticky .main-menu ul li{
   display: inline-block;

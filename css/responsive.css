@@ -196,6 +196,7 @@
     .header-area .seach_icon {
         width: 50px;
         right: 90px !important;
+        z-index: 99999 !important;
     }
 
     .header-area .main-header-area.sticky .bf{
@@ -407,6 +408,9 @@
     }
     .product-detail .f-btn:first-child {
         padding: 0px 25px !important;
+    }
+    .row.imglist .mb-55{
+        margin-bottom: 0px !important;
     }
 
 

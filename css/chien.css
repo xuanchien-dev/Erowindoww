@@ -2514,9 +2514,7 @@ a.view-more:hover{
   background-size: cover;
   transform: translateY(-242px);
 }
-.no-tranform{
-  transform: translateY(-242px);
-}
+
 .gia-tri{
   position: relative;
 }
@@ -3113,4 +3111,14 @@ color: #fff;
 }
 .product-detail .f-btn:first-child{
   padding: 0px 56px;
+}
+.no-tranform.wow.fadeInUp.mb-30 {
+    margin-top: -235px;
+}
+.img-ct-phong-ngu{
+  height: 300px;
+}
+.img-ct-phong-ngu img{
+  width: 100%;
+  height: 100%;
 }

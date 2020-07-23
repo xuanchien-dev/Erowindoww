@@ -1,0 +1,12 @@
+.modal-backdrop {
+    z-index: 1 !important;
+}
+.desc-ctiet-col4 ul li{
+	letter-spacing: 0px;
+    color: #141414;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+    font-size: 14px;
+    border-bottom: 1px solid #E6E6E6;
+    font-weight: 400;
+}

@@ -325,7 +325,7 @@ p {
 }
 
 .slider_area .single_slider {
-  /*height: 650px;*/
+  height: 650px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -933,7 +933,7 @@ img {
   width: 100%;
   height: 100%;
   text-align: center;
-  background-color: #4e67a67a;
+  background-color: #4e67a6a1;
 }
 .content-custom{
   margin-top: 30%;
@@ -2140,7 +2140,7 @@ h2.contact-title.title-tin-tuc{
 }
 .box-bt{
   background: #898c8f1f 0% 0% no-repeat padding-box;
-  margin: 15px 0px;
+  /*margin: 15px 0px;*/
   height: 100%;
 }
 .content-bt{
@@ -2900,7 +2900,7 @@ a.view-more:hover{
   top: 20% !important; 
 }
 .box-da.biet-thu .slide-big1,.bg-slide-white .slide-big1{
-  height: 130px !important; 
+ /* height: 130px !important; */
 }
 .echbay-sms-messenger {
     text-align: center;
@@ -3130,4 +3130,7 @@ color: #fff;
 .content-td-bottom .img-td{
   width: 300px;
   height: 200px;
+}
+.single_slider>img{
+  width: 100%;
 }

@@ -251,6 +251,6 @@
   top: -5px;
   padding-bottom: 3px;
 }
-.mobile_menu.d-block.d-lg-none.icon-w .slicknav_menu .slicknav_icon-bar{
+.slicknav_menu .slicknav_icon-bar{
   background: #fff !important;
 }

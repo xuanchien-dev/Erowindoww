@@ -416,6 +416,7 @@
                     <div class="col-12">
                         <div class="d-flex h-section">
                             <h4>Đánh giá sản phẩm:</h4>
+                             <a class="ml-auto" href="" data-toggle="modal" data-target="#exampleModalPopovers">Đánh giá ngay >></a>
                         </div>
                     </div>
                 </div>
@@ -772,46 +773,52 @@
         </div>
     </div>
 
-    <!--Modal: modalYT-->
-    <div class="modal fade" id="modalvd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <!--Content-->
-            <div class="modal-content">
-                <!--Body-->
-                <div class="modal-body mb-0 p-0">
-                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U"
-                            allowfullscreen></iframe>
-                    </div>
+
+
+
+    
+
+    
+<div id="exampleModalPopovers" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalPopoversLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPopoversLabel">Bạn cảm thấy sản phẩm như thế nào?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <div class="star-dg">
+            <div id="click"></div>
+        </div>
+        <div class="form-area">  
+            <form role="form">
+                <div class="form-group float-l mgr-15">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Họ và tên *" required>
+                </div>
+                 <div class="form-group float-l">
+                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Số điện thoại *" required>
+                </div>
+                <div class="form-group float-l mgr-15">
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+               
+                <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Nội dung đánh giá" maxlength="140" rows="7"></textarea>                   
                 </div>
 
-                <!--Footer-->
-                <div class="modal-footer justify-content-center flex-column flex-md-row">
-                    <div>
-                        <a type="button" class="btn-floating btn-sm btn-fb">
-                            <i class="fa fa-facebook-f"></i>
-                        </a>
-                        <!--Twitter-->
-                        <a type="button" class="btn-floating btn-sm btn-tw">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <!--Google +-->
-                        <a type="button" class="btn-floating btn-sm btn-gplus">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        <!--Linkedin-->
-                        <a type="button" class="btn-floating btn-sm btn-ins">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </div>
-                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                        data-dismiss="modal">Close</button>
-                </div>
-            </div>
-            <!--/.Content-->
+                <button type="button" id="submit" name="submit" class="btn btn-primary ">GỬI ĐÁNH GIÁ NGAY</button>
+            </form>
         </div>
+      </div>
+     
     </div>
-    <!--Modal: modalYT-->
+  </div>
+</div>
+
+
+
 
     <div class="mobile-hotline">
         <div class="mobile-hotline-left">
@@ -822,8 +829,8 @@
         </div>
     </div> <!-- dky-dang nhap mobile -->
 
-
-     <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.raty.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -835,6 +842,12 @@
     <script src="js/main.js"></script>
     <script src="js/thuy.js"></script>
     <script src="js/thuy.js"></script>
+    <script type="text/javascript">$('#click').raty({
+        onClick: function(score) {
+            alert('score: ' + score);
+        }
+    });
+    </script>
 </body>
 
 </html>

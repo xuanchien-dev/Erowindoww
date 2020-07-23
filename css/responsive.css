@@ -135,6 +135,12 @@
  .main-header-area.sticky .mobile_menu {
     top: -43px !important;
 }
+#exampleModalPopovers .float-l{
+  float: none !important;
+  width: 100% !important;
+ 
+}
+
 
 }
 @media (max-width: 767px) {
@@ -174,7 +180,7 @@
         bottom: -12px !important;
     }
     .bf {
-        width: 310px !important;
+        width: 275px !important;
     }
     .header-area .logo img{
         width: 50%;
@@ -203,11 +209,9 @@
         z-index: 99;
         border: none;
         border-radius: 3px;
-        top: 5px;
         padding: 5px;
         right: 0;
         margin-top: 0px;
-        top: -73px;
     }
     .title-content-da-index{
         width: 100% !important;
@@ -396,6 +400,14 @@
         display: block;
         opacity: 1;
     }
+    .header_bottom_border {
+        margin-left: 0px !important;}
+    .header-area .main-header-area.sticky .slicknav_nav{
+            margin-top: 12px !important;
+    }
+    .product-detail .f-btn:first-child {
+        padding: 0px 25px !important;
+    }
 
 
 
@@ -445,6 +457,10 @@
     .slide-right {
         width: 268px !important;
     }
+     .su-menh-2.gtcl img,.su-menh .su-menh-2 img  {
+        display: none;
+    }
+    
 
 
 }

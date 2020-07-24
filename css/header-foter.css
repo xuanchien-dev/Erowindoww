@@ -65,7 +65,7 @@ ul.submenu li a:after{
   position: absolute;
   bottom: -10px;
   left: -135px;
-  width: 340px;
+  width: 440px;
   height: 200%;
   background-color: #fff;
 }
@@ -711,7 +711,7 @@ a.f-phone,a.f-website{
 }
 
 .footer .footer_top .footer_widget p a:hover {
-  color: #FF4A52;
+  color: #FED266;
 }
 
 .footer .footer_top .footer_widget p.footer_text {
@@ -760,7 +760,7 @@ a.f-phone,a.f-website{
 
 
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #FF4A52;
+  color: #FED266;
 }
 
 
@@ -903,8 +903,8 @@ a.f-phone,a.f-website{
 }
 
 .footer .socail_links ul li a:hover {
-  color: #FF4A52 !important;
-  border-color: red;
+  color: #FED266!important;
+  /* border-color: red; */
 }
 .footer {
   background-repeat: no-repeat;

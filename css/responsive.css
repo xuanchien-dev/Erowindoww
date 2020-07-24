@@ -24,6 +24,9 @@
     .header-area .main-header-area.sticky .main-menu ul li a.active:after, .header-area .main-header-area.sticky .main-menu ul li a:after {
         bottom: 5px !important;
     }
+    .bf {
+        left: -232px  !important;
+    }
 
 
     
@@ -63,9 +66,7 @@
  
 @media (max-width: 1400px) {
     .rem {
-        position: absolute;
-        top: 0px;
-        width: 20.3% !important;
+        width: 25.3% !important;
     }
     .main-menu.d-none.d-lg-block {
         padding: 5px 0 !important;
@@ -84,14 +85,27 @@
         float: right;
     }
     .header-area .main-header-area .main-menu ul li{
-        margin: 0 25px 0 0  !important;
+        margin: 0 32px 0 0  !important;
     }
     .bf {
-        left: -85px !important;
+        left: -186px !important;
     }
     .header_bottom_border{
         margin-left: 70px !important ;
     }
+    .bf {
+        bottom: -12px  !important;
+    }
+    .bo-1 {
+        border-top: 101px solid #fff !important;
+    }
+    .header-area .main-header-area.sticky .main-menu ul li:hover .submenu{
+            margin-top: -7px !important;
+    }
+    .bf-r img, .bf-l img{
+        max-height: 340px !important;
+    }
+   
 }
 @media (max-width: 1200px) {
     .box-login{
@@ -177,10 +191,10 @@
         padding-bottom: 60px;
     }
     .bf {
-        bottom: -12px !important;
+        bottom: -13px !important;
     }
     .bf {
-        width: 275px !important;
+        width: 375px !important;
     }
     .header-area .logo img{
         width: 50%;
@@ -449,7 +463,7 @@
     margin: 0 55px 0 0 !important;
     }
       .bf {
-        width: 418px !important;
+        width: 423px !important;
     }
     .main-menu{
         margin-left: 10% !important;
@@ -484,8 +498,15 @@
     .slide-right {
         width: 268px !important;
     }
-     .su-menh-2.gtcl img,.su-menh .su-menh-2 img  {
+   /*  .su-menh-2.gtcl img,.su-menh .su-menh-2 img  {
         display: none;
+    }*/
+    .su-menh .su-menh-2 img {
+        left: 522px !important;
+        top: 304px !important;
+    }
+    .su-menh .su-menh-2.gtcl img {
+        top: 360px !important;
     }
     
 

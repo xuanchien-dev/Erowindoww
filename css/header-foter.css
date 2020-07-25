@@ -110,7 +110,7 @@ ul.submenu li a:after{
   }
   .slider_area{
     top: 0px !important;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .mobile_menu {
     position: relative;

@@ -17,15 +17,15 @@ $(document).ready(function () {
         animateIn: 'fadeIn',
         responsive: {
             0: {
-                items: 1,
+                items: 1.4,
                 nav: false,
                 margin: 10,
                 center: true,
                 autoplay: false,
-                loop: false,
+                loop: true,
             },
             600: {
-                items: 1,
+                items: 3,
                 nav: false,
                 center: true,
                 margin: 10,
@@ -52,37 +52,32 @@ $(document).ready(function () {
         autoplaySpeed: 700,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        responsive: [
-        {
-            breakpoint: 1300,
-            settings: 
-            {
-            slidesToShow: 4,
-            arrows: false   
-                }
+        responsive: {
+            0: {
+                items: 1.4,
+                nav: false,
+                 loop: true,
             },
-         {
-        breakpoint: 768,
-        settings: {
-            slidesToShow: 3,
-            arrows: false
-
-                }
-             },
-         {
-        breakpoint: 475,
-        settings: {
-            slidesToShow: 1,
-            arrows: false   
+            767: {
+                items: 1,
+                nav: false,
+                center: true,
+            },
+            992: {
+                items: 1,
+                nav: false,
+                center: true,
+            },
+            1200: {
+                items: 1
+            },
         }
-    }
-    ]
     });
 
     $('.btn-cart').hover(function () {
-        $(this).children('img').attr("src", "./images/shopping-cart(1).svg");
+        $(this).children('img').attr("src", "/themes/introduce/w3ni877/images/shopping-cart(1).svg");
     }, function () {
-        $(this).children('img').attr("src", "./images/shopping-cart.svg");
+        $(this).children('img').attr("src", "/themes/introduce/w3ni877/images/shopping-cart.svg");
     });
 
     $('.btn-o-crit').on('click', function (e) {
@@ -109,9 +104,11 @@ $(document).ready(function () {
             600: {
                 items: 1,
                 autoplay: true,
+                loop: true,
             },
             1000: {
                 items: 1,
+                loop: true,
             }
         },
         onChanged: syncPosition,
@@ -119,13 +116,20 @@ $(document).ready(function () {
 
     sync2.owlCarousel({
         responsive: {
+             0: {
+                items: 3,
+                margin: 5,
+                loop: true,
+            },
             600: {
                 items: 3,
                 margin: 5,
+                loop: true,
             },
             1000: {
                 items: 4,
                 margin: 20,
+                loop: true,
             }
         },
         dots: false,
@@ -170,38 +174,5 @@ $(document).ready(function () {
         sync1.trigger('to.owl.carousel', [number, 100, true]);
     });
 
-    $('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-chevron-up" aria-hidden="true"></i></div><div class="quantity-button quantity-down"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></div>').insertAfter('.quantity input');
-    $('.quantity').each(function () {
-        var spinner = $(this),
-            input = spinner.find('input[type="number"]'),
-            btnUp = spinner.find('.quantity-up'),
-            btnDown = spinner.find('.quantity-down'),
-            min = input.attr('min'),
-            max = input.attr('max');
 
-        btnUp.click(function (e) {
-            e.preventDefault();
-            var oldValue = parseFloat(input.val());
-            if (oldValue >= max) {
-                var newVal = oldValue;
-            } else {
-                var newVal = oldValue + 1;
-            }
-            spinner.find("input").val(newVal);
-            spinner.find("input").trigger("change");
-        });
-
-        btnDown.click(function (e) {
-            e.preventDefault();
-            var oldValue = parseFloat(input.val());
-            if (oldValue <= min) {
-                var newVal = oldValue;
-            } else {
-                var newVal = oldValue - 1;
-            }
-            spinner.find("input").val(newVal);
-            spinner.find("input").trigger("change");
-        });
-
-    });
 });

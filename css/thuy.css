@@ -959,10 +959,10 @@
 }
 
 .cart .cart-body .cart-item .ci-img .ci-image {
-    object-fit: cover;
+    /* object-fit: cover; */
     height: 121px;
     width: 100%;
-    object-position: 50% 50%;
+    /* object-position: 50% 50%; */
 }
 
 .cart .cart-body .cart-item .ci-img .ci-button {
@@ -2342,9 +2342,8 @@
 
 .cart .cart-body .cart-item .ci-img .ci-image {
     object-fit: cover;
-    height: 121px;
-    width: 100%;
-    object-position: 50% 50%;
+    height: 125px;
+    width: 170px;
 }
 
 .cart .cart-body .cart-item .ci-img .ci-button {

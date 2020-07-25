@@ -503,7 +503,7 @@ p {
   color: #fff;
   font-family: Bold;
   position: absolute;
-  top: -70px;
+  top: -65px;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -525,6 +525,7 @@ p {
 @media (max-width: 767px) {
   .video_area {
     padding: 100px 0;
+    overflow: hidden;
   }
 }
 .video_area.overlay:before {
@@ -1713,7 +1714,6 @@ a.a-jobs:hover{
     color: #0D3996;
 }
 .contact-title {
-  font-size: 23px;
   margin-bottom: 20px;
   font-family: Bold;
 }
@@ -2350,6 +2350,7 @@ a.view-more:hover{
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  margin: 10px 0px;
 }
 .box-img-top-center{
   height: 200px;
@@ -2445,7 +2446,8 @@ a.view-more:hover{
   font-family: Bold;
 }
 #lienhe input{
-  background-color: #F5F5F5; 
+  background-color: #F5F5F5;
+  font-size: 14px;
 }
 .box-lh img{
   margin: 20px 0px;
@@ -2593,12 +2595,12 @@ a.view-more:hover{
   width: 100%;
   height: 100%;
 }
-.img-td,.slide-td,.box-img-top-center,.slide-left-datb,.img-du-an,.img-ct-phong-ngu,.div-img,.p-head,.hexagon{
+.img-td,.slide-td,.box-img-top-center,.slide-left-datb,.img-du-an,.img-ct-phong-ngu,.div-img,.p-head,.hexagon,.box-tin-col-3{
   position: relative;
   overflow: hidden;
 }
 .img-td:before,.slide-td:before,.box-img-top-center:before,.slide-left-datb:before,
-.img-du-an:before,.img-ct-phong-ngu:before,.div-img:before,.p-head:before,.hexagon:before{
+.img-du-an:before,.img-ct-phong-ngu:before,.div-img:before,.p-head:before,.hexagon:before,.box-tin-col-3:before{
   position: absolute;
   top: 0;
   left: -75%;
@@ -2613,7 +2615,7 @@ a.view-more:hover{
   transform: skewX(-25deg);
 }
 .img-td:hover:before,.slide-td:hover:before,.box-img-top-center:hover:before,.slide-left-datb:hover:before,
-.img-du-an:hover:before,.img-ct-phong-ngu:hover:before,.div-img:hover:before,.p-head:hover:before,.hexagon:hover:before{
+.img-du-an:hover:before,.img-ct-phong-ngu:hover:before,.div-img:hover:before,.p-head:hover:before,.hexagon:hover:before,.box-tin-col-3:hover:before{
     -webkit-animation: shine 1.5s;
     animation: shine 1.5s;
     left: 75%;
@@ -2667,7 +2669,7 @@ a.view-more:hover{
 .bg-title-content-bt h2{
   color: #141414;
   font-size: 18px;
-  font-weight: bold;
+  font-family: Bold;
   padding: 15px 0px;
   display: block;
   margin-bottom: -3px;
@@ -3176,7 +3178,7 @@ a.view-more:hover{
   height: 140px;
 }
 .home-page .slider_area .single_slider{
-  height: 744px;
+  height: 1000px;
 }
 .home-page .box-product{
   margin-bottom: 25px;
@@ -3240,7 +3242,7 @@ a.view-more:hover{
 .tab-content p b{
  color: #141414;
  font-size: 14px;
- font-weight: bold;
+ font-family: Bold;
 }
 .tab-content p{
  color: #141414;
@@ -3263,8 +3265,82 @@ a.view-more:hover{
   height: 15px !important;
 
 }
+.content-td strong{
+   color: #292929;
+    font-family: Bold;
+}
+.content-td ol,.desc-ctiet ul{
+  padding-left: 0px;
+  font-family: Regular;
+  color: #141414;
+}
+.content-td ol li{
+  margin-left: 10px;
+  position: relative;
+}
+.content-td ol li:before{
+  content: "-";
+  position: absolute;
+  left: -10px;
+  bottom: 0px;
 
-/*.img-why-pc>img {
+}
+.main-header-area.sticky .modal {
+    top: 200px !important;
+    right: 0;
+    left: 0;
+    bottom: initial;
+}
+.bg-title-content-bt.mt-30{
+  margin-bottom: 30px;
+}
+.b-thu .slide-left {
+    bottom: 1px;
+    margin-left: -5px;
+}
+.b-thu .box-da {
+    margin-bottom: 60px;
+}
+.main-content-bthu .title-index-kh h2 {
+    margin:20px 0px;
+}
+.main-content-bthu .title-index-kh h2:after {
+ content: "";
+ position: absolute;
+ max-width: 70px;
+ background-color: #FED266;
+ height: 3px;
+ width: 100%;
+ top: 60px;
+ margin: 0 auto;
+ left: 0;
+ right: 0;
+}
+.box-why-img .img-center-2{
+  position: absolute;
+  top: 102px;
+  right: 0px;
+  margin: 0 auto;
+  display: block;
+  left: 0px;
+}
+.box-why-img .img-center-3{
+ position: absolute;
+ top: 145px;
+ right: 0px;
+ margin: 0 auto;
+ display: block;
+ left: 0px;
+}
+.box-why-img .img-center-4{
+ position: absolute;
+ top: 145px;
+ right: 0px;
+ margin: 0 auto;
+ display: block;
+ left: 0px;
+}
+.box-why-img .img-center-2,.box-why-img .img-center-3,.box-why-img .img-center-4 {
   animation: app-logo-spin infinite 5s linear
 }
 
@@ -3275,4 +3351,4 @@ a.view-more:hover{
   to {
     transform: rotate(360deg)
   }
-}*/
+}

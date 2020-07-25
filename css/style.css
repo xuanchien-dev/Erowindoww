@@ -15,7 +15,22 @@
 @import url(header-foter.css);
 
 
-
+h2,h3,h4,h5{
+  font-family: Bold;
+  color: #292929;
+}
+h2{
+  font-size: 18px;
+}
+h3{
+  font-size: 16px;
+}
+h4{
+  font-size: 14px;
+}
+h5{
+  font-size: 14px;
+}
 .mt-10{
 	margin-top: 10px;
 }
